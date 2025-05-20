@@ -74,13 +74,13 @@ const Banner = () => {
           </div>
           {/* Right Column – Info */}
 
-          <div className="flex justify-center">
+          <div className="flex justify-center h-[400px]">
             <Image
               src={profilePic}
               alt="Rakibul Hasan"
               width={400}
               height={400}
-              className="rounded-full border-4 border-white shadow-lg"
+              className="rounded-full border-4 border-white shadow-lg object-cover object-top"
             />
           </div>
         </motion.div>
